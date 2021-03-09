@@ -1,4 +1,4 @@
-.synopsis {
+.page > p:first-of-type { /* child selector example limiting style to first paragraph of first container*/
     color: #7E8184;     /* Light gray */
     font-style: italic;
 }
@@ -31,6 +31,10 @@
 .button:active, .button:visited:active {
     color: #FFF;
     background-color: #5995DA;  /* Blue */
+}
+
+#button-2 {
+    background-color: #D55C5F; /* Red */
 }
 
 .call-to-action:link, .call-to-action:visited {
@@ -71,4 +75,13 @@ a:visited:hover {
 
 a:visited:active {
     color: red;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+#button-2 {
+    color: #5D6063; /* Dark gray */ 
+    /* User class selectors whenever possible, only use ID selectors as a last resort */
 }
