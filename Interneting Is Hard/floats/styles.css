@@ -54,9 +54,10 @@ p {
 
 .footer-item {
     float: left;
-    width: 31%;
+    /* width: 31%; */
     margin: 20px 1.15%; /* Vertical Horizontal */
-    height: 160px;
+    /* height: 160px; */
+    overflow: hidden;
     background-color: #B2D6FF;  /* Medium blue */
 }
 
