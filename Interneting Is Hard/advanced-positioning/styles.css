@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Best Practice */
+  }
+  
+  body {
+    height: 1200px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .example {
+    display: flex;
+    /* justify-content: space-around; */ /* Uncomment this later */
+    justify-content: flex-start; /* Remove this later */
+  
+    width: 800px;
+    margin: 50px 0; /* Vertical Horizontal */
+    background-color: #d6e9fe;
+  }
+  
+  .item img {
+    display: block;
+  }
+  
+  .item-relative {
+    position: relative;
+    top: 30px; /* Y-position */
+    left: 30px; /* X-position */
+  
+    /* bottom: 30px;
+    right: 30px; */ /* Example showing image can be positioned in opposite direction with the bottom and right edges */
+  }
+  
+  .absolute {
+    position: relative; /* Combining absolute positioning with static positioning. */
+  }
+  
+  .item-absolute {
+    position: absolute;
+    top: 10px; /* Y-position */
+    left: 10px; /* X-position */
+  }
+  
